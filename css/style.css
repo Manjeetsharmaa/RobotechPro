@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+/* Navigation */
 header{
     min-height: 90px;
     background-color: #0033;
@@ -12,8 +14,36 @@ ul{
     list-style-type: none;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
 
+.nav-link{
+    margin: 0px 10px 0px 10px;
+
+    /* Text-edit */
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+    /* color */
+    color: white;
+
+    transition: 0.2s ease;
+}
+
+.nav-link:hover{
+    color: black;
+    font-size: 1.3rem;
+}
+
+/* Navigation-End */
 #section-1, #section-2, #section-3{
     min-height: 60vh;
     background-color: aqua;
