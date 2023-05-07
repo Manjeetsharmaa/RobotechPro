@@ -125,4 +125,10 @@ footer{
     background-color: #000033;
 }
 
+.right{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
 /* footer-End */
