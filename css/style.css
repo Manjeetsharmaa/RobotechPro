@@ -51,13 +51,21 @@ ul {
 
 .login-btn {
     font-size: 20px;
-
     text-decoration: none;
     background-color: rgb(45, 172, 231);
     border-radius: 10px;
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
 }
+
+/* MAIN */
+main{
+    background-image: url(/img/mock.jpg);
+    min-height: 620px;
+}
+
+/* MAIN-END */
+
 
 /* Navigation-End */
 #section-1,
@@ -69,6 +77,7 @@ ul {
 
 /* H4 */
 .h4 {
+    padding: 30px 0px;
     text-align: center;
     font-size: 25px;
     font-weight: 600;
@@ -116,6 +125,14 @@ ul {
 }
 
 /* Pricing */
+
+/* Contact */
+.contact{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* Contact us */
 
 
 
