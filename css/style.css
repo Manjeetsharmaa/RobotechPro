@@ -3,12 +3,13 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* Navigation */
 header {
-    min-height: 90px;
-    background-color: #0033;
-    position: sticky;
+    background-color: white
 }
 
 ul {
@@ -16,15 +17,20 @@ ul {
 }
 
 .navbar {
+    min-height: 90px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 24px;
 }
 
-.nav-list {
+.nav-menu {
     display: flex;
-    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 60px;
 }
+
 
 .nav-link {
     margin: 0px 10px 0px 10px;
@@ -34,28 +40,89 @@ ul {
     font-size: 1.2rem;
 
     /* color */
-    color: white;
-
+    color: rgb(0, 0, 0);
     transition: 0.2s ease;
 }
 
 .nav-link:hover {
-    color: black;
+    color: rgb(187, 187, 187);
     font-size: 1.3rem;
 }
 
 .login-btn {
+    font-size: 20px;
+
     text-decoration: none;
-    background-color: rgb(177, 124, 124);
+    background-color: rgb(45, 172, 231);
     border-radius: 10px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 /* Navigation-End */
 #section-1,
-#section-2,
-#section-3 {
+#section-2 {
     min-height: 60vh;
     background-color: aqua;
 }
+
+
+/* H4 */
+.h4 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* H4 End */
+
+/* Pricing */
+#section-3 {
+    min-height: 60vh;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    width: 33.33%;
+    background-color: skyblue;
+    margin: 2rem;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.price {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.buy-btn{
+    font-size: medium;
+}
+
+/* Pricing */
+
+
+
+/* Footer */
+footer{
+    min-height: 190px;
+    background-color: #000033;
+}
+
+/* footer-End */
