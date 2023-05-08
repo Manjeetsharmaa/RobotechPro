@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -53,10 +55,16 @@ ul {
 .login-btn {
     font-size: 20px;
     text-decoration: none;
+    color: white;
     background-color: rgb(45, 172, 231);
     border-radius: 10px;
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
+}
+
+.login-btn:hover {
+    color: black;
+    background-color: rgb(162, 208, 229);
 }
 
 /* MAIN */
@@ -64,8 +72,45 @@ main {
     min-height: 620px;
     background-image: url(/img/mock.jpg);
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.para {
+
+    padding: 30px 80px;
+    line-height: 1.2;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.start-now {
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial;
+    width: 140px;
+    height: 50px;
+    border-width: 1px;
+    color: #fff;
+    border-color: #84bbf3;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    text-shadow: inset 0px 1px 0px #528ecc;
+    background: linear-gradient(#79bbff, #378de5);
+}
+
+.start-now:hover {
+    background: linear-gradient(#378de5, #79bbff);
+}
 
 /* MAIN-END */
 
@@ -80,10 +125,11 @@ main {
 
 /* H4 */
 .h4 {
-    padding: 30px 0px;
+    font-family: 'Jost', sans-serif;
     text-align: center;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: normal;
 }
 
 /* H4 End */
@@ -130,15 +176,39 @@ main {
 
 /* Pricing */
 
+/* section-5 */
 
-
-/* Contact */
 .contact {
+    font-family: 'Jost', sans-serif;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: normal;
 }
 
-/* Contact us */
+#section-5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    font-size: 15px;
+}
+input{
+    width: 50%;
+}
+.message{
+    padding: 20px 0px;
+}
+
+/* Contact us - end*/
 
 
 
