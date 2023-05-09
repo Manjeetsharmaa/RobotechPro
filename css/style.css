@@ -146,17 +146,6 @@ main {
     align-items: center;
 }
 
-.column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    float: left;
-    width: 33.33%;
-    background-color: skyblue;
-    margin: 2rem;
-}
-
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -164,17 +153,61 @@ main {
     clear: both;
 }
 
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    width: 33.33%;
+    background-color: rgb(164, 171, 173);
+    border-radius: 15px;
+    margin: 2rem;
+    padding-bottom: 40px;
+    -webkit-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.51);
+    box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.51);
+}
+
+span {
+    font-size: 2.6rem;
+}
+
+.ruppe {
+    font-style: italic;
+    font-size: 2.8rem;
+    color: #12a5e9;
+    font-weight: bolder;
+}
 
 .price {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
+    font-weight: 400;
 }
 
 .buy-btn {
-    font-size: medium;
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
 }
 
-/* Pricing */
+.buy-btn:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+    transition: 0.1s;
+}
+
+/* Pricing END */
 
 /* section-5 */
 
@@ -195,22 +228,21 @@ main {
 .contact-form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #85a5c7;
     padding: 20px;
-
     border-radius: 15px;
 }
 
 .submit {
-    width: 70px;
+    width: 170px;
     height: 40px;
     color: #fff;
     padding: 5px 10px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
-    /* position: relative; */
-    display: inline-block;
     outline: none;
     border-radius: 5px;
     border: none;
@@ -223,6 +255,7 @@ main {
     top: 1px;
     transition: 0.1s;
 }
+
 
 .submit:active {
     box-shadow: 0 0 #4433ff;
@@ -246,17 +279,27 @@ textarea {
     outline: none;
 }
 
+.message {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
 /* Contact us - end*/
-
-/* helpline */
-
-
-
+.container {
+    display: flex;
+    justify-content: center;
+}
 
 /* Footer */
 footer {
     min-height: 190px;
     background-color: #000033;
+}
+
+.support {
+    width: 370px;
+    margin: 40px;
 }
 
 .right {
