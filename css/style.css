@@ -195,20 +195,61 @@ main {
 .contact-form {
     display: flex;
     flex-direction: column;
+    background-color: #85a5c7;
+    padding: 20px;
+
+    border-radius: 15px;
 }
 
+.submit {
+    width: 70px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* position: relative; */
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
+}
+
+.submit:hover {
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+    transition: 0.1s;
+}
+
+.submit:active {
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
+}
 
 label {
-    font-size: 15px;
+    font-size: 20px;
 }
-input{
-    width: 50%;
+
+input {
+    height: 30px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 5px;
+    outline: none;
 }
-.message{
-    padding: 20px 0px;
+
+textarea {
+    border-radius: 5px;
+    outline: none;
 }
 
 /* Contact us - end*/
+
+/* helpline */
+
 
 
 
