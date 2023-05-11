@@ -144,73 +144,7 @@ main {
     margin: auto;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    float: left;
-    width: 33.33%;
-    background-color: rgb(164, 171, 173);
-    border-radius: 15px;
-    margin: 2rem;
-    padding-bottom: 40px;
-    -webkit-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.51);
-    -moz-box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.51);
-    box-shadow: 10px 10px 36px -1px rgba(0, 0, 0, 0.51);
-}
-
-span {
-    font-size: 2.6rem;
-    line-height: 58px;
-}
-
-.ruppe {
-    font-style: italic;
-    font-size: 2.8rem;
-    color: #12a5e9;
-    font-weight: bolder;
-}
-
-.price {
-    text-align: center;
-    font-size: 2.4rem;
-    font-weight: 400;
-}
-
-.buy-btn {
-    width: 170px;
-    height: 40px;
-    color: #fff;
-    padding: 5px 10px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    background: #3a86ff;
-    box-shadow: 0 5px #4433ff;
-}
-
-.buy-btn:hover {
-    box-shadow: 0 3px #4433ff;
-    top: 1px;
-    transition: 0.1s;
-}
 
 /* Pricing END */
 #section-4 {
@@ -253,6 +187,11 @@ span {
     box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
 }
 
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .submit {
     width: 170px;
     height: 40px;
@@ -281,7 +220,7 @@ span {
 }
 
 label {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 input {
@@ -292,16 +231,6 @@ input {
     outline: none;
 }
 
-textarea {
-    border-radius: 5px;
-    outline: none;
-}
-
-.message {
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-}
 
 /* Contact us - end*/
 .container {
@@ -311,15 +240,35 @@ textarea {
 
 /* Footer */
 footer {
-    min-height: 190px;
+    min-height: 390px;
     background-color: #000033;
 }
 
-.support {
-    width: 370px;
-    margin: 40px;
+.links{
+    display: flex;
+    min-height: 360px;
 }
 
+.links-items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 40px;
+    min-height: 250px;
+}
+
+.footer-item{
+   font-size: 25px;
+}
+
+.span-text{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
 .right {
     text-align: center;
     color: white;
