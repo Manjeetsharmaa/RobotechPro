@@ -18,10 +18,11 @@ ul {
     list-style-type: none;
 }
 
-.logo{
+.logo {
     width: 190px;
     min-height: 80px;
 }
+
 .navbar {
     min-height: 90px;
     display: flex;
@@ -154,7 +155,7 @@ main {
     -webkit-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
     box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
-   
+
 }
 
 /* section-5 */
@@ -172,6 +173,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding-bottom: 150px;
 }
 
 .contact-form {
@@ -182,16 +184,17 @@ main {
     background-color: #85a5c7;
     padding: 20px;
     border-radius: 15px;
-    -webkit-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
-    box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 10px 10px 50px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 50px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 50px 7px rgba(0, 0, 0, 0.75);
 }
 
-.contact-details{
+.contact-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .submit {
     width: 170px;
     height: 40px;
@@ -244,12 +247,12 @@ footer {
     background-color: #000033;
 }
 
-.links{
+.links {
     display: flex;
     min-height: 360px;
 }
 
-.links-items{
+.links-items {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -259,15 +262,32 @@ footer {
     min-height: 250px;
 }
 
-.footer-item{
-   font-size: 25px;
+.footer-item {
+    font-family: 'Jost', sans-serif;
+    font-size: 17.2px;
+    text-decoration: none;
+    color: rgb(101,146,230);
+    transition: 0.3s ease;
+}
+.footer-item:hover{
+    text-decoration: underline;
+    color: white;
 }
 
-.span-text{
-    padding-top: 15px;
+.span-text {
+    font-family: 'Jost', sans-serif;
+    padding-top: 25px;
     text-align: center;
-    font-size: 25px;
+    font-size: 19.2px;
     color: white;
+}
+
+.footer-ul{
+ 
+}
+
+.footer-li{
+   
 }
 .right {
     text-align: center;
