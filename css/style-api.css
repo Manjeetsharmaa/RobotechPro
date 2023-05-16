@@ -25,6 +25,36 @@
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     padding-bottom: 40px;
+    letter-spacing: normal;
 }
 
 /* privacy policy page end */
+
+/* Terms and condition */
+.terms{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000033;
+    width: 60%;
+    margin: auto;
+}
+
+.term-text{
+    margin: 30px;
+    color: white;
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
+}
+
+.term-para{
+    margin: 0px 30px;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    padding-bottom: 40px;
+    letter-spacing: normal;
+}
+
+/* Terms and condition end */
