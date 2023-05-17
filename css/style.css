@@ -119,14 +119,54 @@ main {
 
 /* MAIN-END */
 
-
-/* Navigation-End */
-#section-1,
-#section-2 {
-    min-height: 60vh;
-    background-color: aqua;
+/* section-1 */
+#section-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
 }
 
+.about-text{
+    font-size: 48px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700 bold;
+}
+
+.about-para{
+    font-size: 19px;
+    font-weight: 400 normal;
+    font-family: 'Jost', sans-serif;
+    width: 60%;
+    letter-spacing: normal;
+    gap: 10px;
+}
+/* section-1 end */
+
+/* Navigation-End */
+
+#section-2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   padding-top: 60px;
+}
+.sucess-img{
+    width: 450px;
+}
+
+.sucess-text{
+
+}
+
+.success-para{
+width: 80%;
+}
 
 /* H4 */
 .h4 {
