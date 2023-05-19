@@ -368,11 +368,9 @@ footer {
     color: white;
 }
 
-.footer-ul {}
-
-.footer-li {}
 
 .right {
+    font-family: 'Jost', sans-serif;
     text-align: center;
     color: white;
     font-size: 1.3rem;
