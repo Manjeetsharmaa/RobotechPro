@@ -223,12 +223,6 @@ main {
 
 /* H4 End */
 
-/* Pricing */
-
-
-
-
-/* Pricing END */
 #section-4 {
     background-color: #000033;
 
@@ -319,7 +313,61 @@ input {
     outline: none;
 }
 
+/* ABOUTUS PAGE */
+.content-about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
+    min-height: 350px;
+    background-color: #000033;
+}
+
+.about-text-section {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700 bold;
+}
+
+.about-span {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700 bold;
+}
+
+.about-parent{
+    color: white;
+    letter-spacing: normal;
+    padding: 0px 300px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400 normal;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.parentcontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px;
+}
+
+.value{
+    text-align: center;
+    color: black;
+    font-family: 'Jost', sans-serif;
+
+}
+/* ABOUTUS END */
 /* Contact us - end*/
 .container {
     display: flex;
