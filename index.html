@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>RobotechPro</title>
 </head>
 
@@ -44,18 +45,21 @@
 
         </nav>
     </header>
-    <main>
+    <div class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="/img/slider-img/1.jpg" ></div>
+                <div class="swiper-slide"><img src="/img/slider-img/2.jpg" ></div>
+                <div class="swiper-slide"><img src="/img/slider-img/3.jpg" ></div>
+            </div>
 
-        <div class="para">
-            RobotechPro Is A Web- grounded operation That Allows You To Do Algo Trading In The Indian Stock Market, You
-            Can Connect Your Broker Or Exchange With RobotechPro And Do Algo Trading According To Your Trading Strategy.
-            Then You Can Do Your Algo Trading With Top Leading Brokers Zerodha,Master Trust, Fyers AliceBlue, Angelone
-            or 5paisa, MT4 Or TradingView.
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
         </div>
-        <button class="start-now"><a href="https://wa.me/+917292051815" class="link-contact" target="_blank">Contact
-                Now</a></button>
+    </div>
 
-    </main>
     <section id="section-1">
         <div class="about-text">
             About us
@@ -92,8 +96,19 @@
     <section id="section-4">
         <div class="contact">Contact</div>
 
-        <div class="phone">
-
+        <div class="contact-element">
+            <div class="phone">
+                Phone
+                <div class="phone-no">
+                    +91 7292051815
+                </div>
+            </div>
+            <div class="email">
+                Email
+                <div class="email-add">
+                    care@robotechpro.com
+                </div>
+            </div>
         </div>
 
 
@@ -123,7 +138,7 @@
         </form>
     </section>
 
-    <div class="container">
+    <div class="container-img">
         <img src="/img/24/1.jpg" alt="1" class="support">
         <img src="/img/24/2.jpg" alt="2" class="support">
         <img src="/img/24/3.jpg" alt="3" class="support">
@@ -188,6 +203,9 @@
             © Copyright 2021 - 2023 ROBOTECHPRO IT LLP - All Rights Reserved
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   <script src="/script/script.js"></script>
 
 </body>
 

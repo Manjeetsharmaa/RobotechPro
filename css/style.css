@@ -1,153 +1,137 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* Navigation */
 header {
-  background-color: white;
+    background-color: white;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 .logo {
-  width: 190px;
-  min-height: 80px;
+    width: 190px;
+    min-height: 80px;
 }
 
 .navbar {
-  min-height: 90px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
 }
 
 .nav-menu {
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  gap: 60px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 60px;
 }
 
 .nav-link {
-  margin: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
 
-  /* Text-edit */
-  text-decoration: none;
-  font-size: 1.2rem;
+    /* Text-edit */
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17.3px;
+    font-family: "Jost", sans-serif;
 
-  /* color */
-  color: rgb(0, 0, 0);
-  transition: 0.2s ease;
+    /* color */
+    color: rgb(0, 0, 0);
+    transition: 0.2s ease;
 }
 
 .nav-link:hover {
-  color: rgb(187, 187, 187);
-  font-size: 1.3rem;
+    color: rgb(187, 187, 187);
+    font-weight: 500(medium);
+    font-size: 17.3px;
+    font-family: "Jost", sans-serif;
+
 }
 
 .login-btn {
-  font-size: 20px;
-  text-decoration: none;
-  color: white;
-  background-color: rgb(45, 172, 231);
-  border-radius: 10px;
-  padding: 10px;
-  border: 1px solid rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+
+    color: white;
+    background-color: rgb(45, 172, 231);
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .login-btn:hover {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 /* MAIN */
-main {
-  min-height: 620px;
-  background-image: url(/img/mock.jpg);
-  background-size: cover;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.container {
+    width: 100%;
+    height: 96vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.para {
-  padding: 30px 80px;
-  line-height: 1.2;
-  font-size: 20px;
-  text-align: center;
-  color: rgb(255, 255, 255);
+.swiper {
+    width: 80%;
+    height: fit-content;
 }
 
-.start-now {
-  cursor: pointer;
-  font-size: 15px;
-  font-family: Arial;
-  width: 140px;
-  height: 50px;
-  border-width: 1px;
-  border-color: #84bbf3;
-  font-weight: bold;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  box-shadow: inset 0px 1px 0px 0px #bbdaf7;
-  text-shadow: inset 0px 1px 0px #528ecc;
-  background: linear-gradient(#79bbff, #378de5);
+.swiper-slide img{
+    width: 100%;
 }
 
-.link-contact {
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  transition: 0.2s ease;
+.swiper .swiper-button-prev, .swiper  .swiper-button-next{
+   color: white;
 }
 
-.link-contact:hover {
-  color: black;
-}
-
-.start-now:hover {
-  background: linear-gradient(#378de5, #79bbff);
+.swiper .swiper-pagination-bullet-active{
+    background-color: white;
 }
 
 /* MAIN-END */
 
 /* section-1 */
 #section-1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
-  padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
 }
 
 .about-text {
-  font-size: 48px;
-  font-family: "Jost", sans-serif;
-  font-weight: 700 bold;
+    font-size: 48px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700 bold;
 }
 
 .about-para {
-  font-size: 19px;
-  font-weight: 400 normal;
-  font-family: "Jost", sans-serif;
-  width: 60%;
-  letter-spacing: normal;
-  gap: 10px;
+    font-size: 19px;
+    font-weight: 400 normal;
+    font-family: "Jost", sans-serif;
+    width: 60%;
+    letter-spacing: normal;
+    gap: 10px;
 }
 
 /* section-1 end */
@@ -156,211 +140,282 @@ main {
 
 /* section-2 */
 #section-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  margin: auto;
-  padding: 60px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 60px 0px;
 }
 
 .sucess-img {
-  height: 450px;
-  width: 650px;
+    height: 450px;
+    width: 650px;
 }
 
 .success-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .success-text {
-  font-size: 32px;
-  font-weight: 700 bold;
-  font-family: "Jost", sans-serif;
+    font-size: 32px;
+    font-weight: 700 bold;
+    font-family: "Jost", sans-serif;
 }
 
 .success-para {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 400 normal;
-  font-family: "Jost", sans-serif;
-  width: 80%;
-  line-height: 1.8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400 normal;
+    font-family: "Jost", sans-serif;
+    width: 80%;
+    line-height: 1.8;
 }
 
 /* section-2 End */
 
 /* section-3 */
 #section-3 {
-  background-image: url(/img/coverimg-4.jpg);
-  min-height: 90vh;
-  background-size: cover;
-  -webkit-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
-  box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
+    background-image: url(/img/coverimg-4.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    -webkit-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
+    box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
 }
 
 /* section-3 END*/
 
 /* H4 */
 .h4 {
-  font-family: "Jost", sans-serif;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: normal;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: normal;
 }
 
 /* H4 End */
 
+/* section-4 */
 #section-4 {
-  background-color: #000033;
+    background-color: #000033;
 }
 
 .contact {
-  font-size: 48px;
-  font-family: "Jost", sans-serif;
-  text-align: center;
-  color: white;
+    font-size: 48px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    color: white;
 }
 
+.contact-element {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 60px;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    min-height: 250px;
+    margin: 50px;
+    border-radius: 10px;
+    font-weight: 700 bold;
+    font-size: 32px;
+    font-family: "Jost", sans-serif;
+
+}
+
+.phone-no {
+    color: #6592e7;
+    font-size: 19.2px;
+    text-align: center;
+}
+
+.phone-no:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    background-color: white;
+    width: 50%;
+    min-height: 250px;
+    margin: 50px;
+    border-radius: 10px;
+    font-weight: 700 bold;
+    font-size: 32px;
+    font-family: "Jost", sans-serif;
+
+}
+
+.email-add{
+    color: #6592e7;
+
+    font-size: 19.2px;
+    text-align: center;
+}
+
+.email-add:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+/* section-4 end */
 /* section-5 */
 
 .get-in-touch {
-  padding: 60px 0px;
-  font-family: "Jost", sans-serif;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: normal;
+    padding: 60px 0px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: normal;
 }
 
 #section-5 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 150px;
 }
 
 .contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #85a5c7;
-  padding: 20px;
-  border-radius: 15px;
-  -webkit-box-shadow: 10px 10px 50px 7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 50px 7px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 50px 7px rgba(0, 0, 0, 0.75);
+    min-height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius:  15px;
+    -webkit-box-shadow: 0px 10px 20px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 50px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 50px 7px rgba(0, 0, 0, 0.75);
 }
 
 .contact-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .submit {
-  width: 170px;
-  height: 40px;
-  color: #fff;
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  background: #3a86ff;
-  box-shadow: 0 5px #4433ff;
+    width: 170px;
+    height: 40px;
+    font-family: "Jost", sans-serif;
+
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #3a86ff;
+    box-shadow: 0 5px #4433ff;
 }
 
 .submit:hover {
-  box-shadow: 0 3px #4433ff;
-  top: 1px;
-  transition: 0.1s;
+    box-shadow: 0 3px #4433ff;
+    top: 1px;
+    transition: 0.1s;
 }
 
 .submit:active {
-  box-shadow: 0 0 #4433ff;
-  top: 5px;
+    box-shadow: 0 0 #4433ff;
+    top: 5px;
 }
 
 label {
-  font-size: 24px;
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+
 }
 
 input {
-  height: 30px;
-  margin: 10px;
-  width: 400px;
-  border-radius: 5px;
-  outline: none;
+    height: 30px;
+    margin: 10px;
+    width: 400px;
+    border-radius: 5px;
+    outline: none;
 }
 
 /* ABOUTUS PAGE */
 .content-about {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
-  min-height: 650px;
-  background-color: #000033;
+    min-height: 650px;
+    background-color: #000033;
 }
 
 .about-text-section {
-  color: white;
-  text-align: center;
-  font-size: 48px;
-  font-family: "Jost", sans-serif;
-  font-weight: 700 bold;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700 bold;
 }
 
 .about-span {
-  text-align: center;
-  color: white;
-  font-size: 19px;
-  font-family: "Jost", sans-serif;
-  font-weight: 700 bold;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700 bold;
 }
 
 .about-parent {
-  color: white;
-  text-align: center;
-  letter-spacing: normal;
-  padding: 0px 300px;
-  font-family: "Jost", sans-serif;
-  font-weight: 400 normal;
+    color: white;
+    text-align: center;
+    letter-spacing: normal;
+    padding: 0px 300px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400 normal;
 }
 
 .content-section {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0px 300px;
+
 }
 
 .parentcontent {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 100px;
-  padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    padding: 0px 0px;
 }
 
 .value {
     font-size: 35px;
-  text-align: center;
-  color: black;
-  font-family: "Jost", sans-serif;
+    text-align: center;
+    color: black;
+    font-family: "Jost", sans-serif;
 }
 
-.value-text{
+.value-text {
     font-family: "Jost", sans-serif;
     padding-top: 25px;
     text-align: center;
@@ -369,68 +424,72 @@ input {
 }
 
 .img-part {
-  background-image: url(/img/about-img/1.jpg);
-  height: 300px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-top: 50px;
-  
+    
+    width: 50%;
+    background-size: contain;
+    padding-top: 50px;
+
 }
+
+.img-part img {
+    height: 350px;
+
+}
+
 /* ABOUTUS END */
 /* Contact us - end*/
-.container {
-  display: flex;
-  justify-content: center;
+.container-img {
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
 footer {
-  min-height: 390px;
-  background-color: #000033;
+    min-height: 390px;
+    background-color: #000033;
 }
 
 .links {
-  display: flex;
-  min-height: 360px;
+    display: flex;
+    min-height: 360px;
 }
 
 .links-items {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  width: 30%;
-  margin: 0px 40px;
-  min-height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 40px;
+    min-height: 250px;
 }
 
 .footer-item {
-  font-family: "Jost", sans-serif;
-  font-size: 17.2px;
-  text-decoration: none;
-  color: rgb(101, 146, 230);
-  transition: 0.3s ease;
+    font-family: "Jost", sans-serif;
+    font-size: 17.2px;
+    text-decoration: none;
+    color: rgb(101, 146, 230);
+    transition: 0.3s ease;
 }
 
 .footer-item:hover {
-  text-decoration: underline;
-  color: white;
+    text-decoration: underline;
+    color: white;
 }
 
 .span-text {
     font-family: "Jost", sans-serif;
-  padding-top: 25px;
-  text-align: center;
-  font-size: 19.2px;
-  color: rgb(255, 255, 255);
-  }
+    padding-top: 25px;
+    text-align: center;
+    font-size: 19.2px;
+    color: rgb(255, 255, 255);
+}
 
 .right {
-  font-family: "Jost", sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 1.3rem;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
 }
 
 /* footer-End */
