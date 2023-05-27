@@ -80,6 +80,7 @@ ul {
 /* MAIN */
 
 .container {
+  padding-top: 70px;
   width: 100%;
   height: 106vh;
   background: #222;
@@ -115,7 +116,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: auto;
-  padding-top: 40px;
+  padding-top: 190px;
 }
 
 .about-text {
@@ -203,6 +204,7 @@ ul {
 /* section-4 */
 #section-4 {
   background-color: #000033;
+  padding-top: 50px;
 }
 
 .contact {
@@ -271,6 +273,7 @@ ul {
   cursor: pointer;
   text-decoration: underline;
 }
+
 /* section-4 end */
 /* section-5 */
 
@@ -291,6 +294,7 @@ ul {
 }
 
 .contact-form {
+  background: linear-gradient(51deg, #1D2A52 0%, #190606 100%);
   min-height: 220px;
   display: flex;
   flex-direction: row;
@@ -306,14 +310,34 @@ ul {
 .contact-details {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+
+}
+
+label {
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  color: white;
+  margin: 0px 20px;
+}
+
+input {
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(0, 0, 0);
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
 }
 
 .submit {
   width: 170px;
   height: 40px;
   font-family: "Jost", sans-serif;
-
+  margin: 0px 20px;
   color: #fff;
   padding: 5px 10px;
   font-weight: bold;
@@ -337,18 +361,11 @@ ul {
   top: 5px;
 }
 
-label {
-  font-size: 24px;
-  font-family: "Jost", sans-serif;
-}
 
-input {
-  height: 30px;
-  margin: 10px;
-  width: 400px;
-  border-radius: 5px;
-  outline: none;
-}
+
+/* SECTION-5  end */
+
+
 
 /* ABOUTUS PAGE */
 .content-about {
@@ -426,6 +443,7 @@ input {
 .img-part img {
   height: 350px;
 }
+
 .content-about-story {
   display: flex;
   justify-content: space-between;
@@ -434,6 +452,7 @@ input {
   min-height: 450px;
   background-color: #000033;
 }
+
 .success-story {
   width: 50%;
   font-family: "Jost", sans-serif;
@@ -454,6 +473,7 @@ input {
   font-size: 19.2px;
   color: rgb(255, 255, 255);
 }
+
 /* ABOUTUS END */
 
 /* SERVICES PAGE START */
@@ -464,9 +484,59 @@ input {
   font-size: 35px;
 }
 
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+padding: 50px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 70px;
+  padding: 50px;
+}
+.card-img{
+  width: 650px;
+  height: 450px;
+}
+.card-container h4{
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+
+}
+.card-container p{
+  text-align: center;
+  word-wrap: normal;
+  padding: 0px 70px;
+}
 
 
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:#124d77;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  box-shadow:inset 0px 1px 0px 0px rgba(152, 181, 212, 1);
+  text-shadow:inset 0px 1px 0px #154682;
+  background:linear-gradient(#007dc1, #0061a7);
+}
 
+.buttonClass:hover {
+  background: linear-gradient(#0061a7, #007dc1);
+}
+              
 
 
 
