@@ -448,12 +448,57 @@ input {
   font-weight: 400 normal;
   width: 50%;
   font-family: "Jost", sans-serif;
+
   padding-top: 17.2px;
   text-align: center;
   font-size: 19.2px;
   color: rgb(255, 255, 255);
 }
 /* ABOUTUS END */
+
+/* SERVICES PAGE START */
+
+.services {
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES PAGE end */
+
 /* Contact us - end*/
 .container-img {
   display: flex;
