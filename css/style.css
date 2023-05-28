@@ -13,6 +13,7 @@ html {
 /* Navigation */
 header {
   background-color: white;
+  padding-bottom: 50px;
 }
 
 ul {
@@ -76,6 +77,40 @@ ul {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
 }
+
+
+.show-hide{
+  display: none;
+}
+
+.show-hide:active{
+  display: active;
+  background: transparent black;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN */
 
@@ -294,17 +329,16 @@ ul {
 }
 
 .contact-form {
-  background: linear-gradient(51deg, #1d2a52 0%, #190606 100%);
-  min-height: 220px;
+  background: #fff url(/img/contact-bg/78786.jpg) center center/cover no-repeat;
+  min-height: 320px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  border-radius: 15px;
-  -webkit-box-shadow: 0px 10px 20px 7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 10px 50px 7px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 10px 50px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px  0px 20px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.75);
 }
 
 .contact-details {
@@ -312,15 +346,9 @@ ul {
   flex-direction: row;
 }
 
-label {
-  font-size: 24px;
-  font-family: "Jost", sans-serif;
-  color: white;
-  margin: 0px 20px;
-}
-
 input {
-  height: 30px;
+  margin: 40px;
+  height: 50px;
   width: 400px;
   border-radius: 5px;
   outline: none;
@@ -554,7 +582,7 @@ input::placeholder {
   width: 60%;
   height: 120vh;
   margin: auto;
-  background-color: #000033;
+  background-color: #000033 transparent;
 }
 
 .disclaimer-content {
@@ -573,10 +601,18 @@ input::placeholder {
 }
 /* COntainer-end */
 
+
+/* 24X7- support */
 .container-img {
   display: flex;
   justify-content: center;
 }
+
+.support{
+  width: 600px;
+}
+
+/* 24X7 support end */
 
 /* Footer */
 footer {
