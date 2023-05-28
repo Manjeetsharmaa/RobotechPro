@@ -80,9 +80,9 @@ ul {
 /* MAIN */
 
 .container {
-  padding-top: 70px;
+
   width: 100%;
-  height: 106vh;
+  height: 105vh;
   background: #222;
   display: flex;
   align-items: center;
@@ -294,7 +294,7 @@ ul {
 }
 
 .contact-form {
-  background: linear-gradient(51deg, #1D2A52 0%, #190606 100%);
+  background: linear-gradient(51deg, #1d2a52 0%, #190606 100%);
   min-height: 220px;
   display: flex;
   flex-direction: row;
@@ -310,7 +310,6 @@ ul {
 .contact-details {
   display: flex;
   flex-direction: row;
-
 }
 
 label {
@@ -361,11 +360,7 @@ input::placeholder {
   top: 5px;
 }
 
-
-
 /* SECTION-5  end */
-
-
 
 /* ABOUTUS PAGE */
 .content-about {
@@ -484,92 +479,100 @@ input::placeholder {
   font-size: 35px;
 }
 
-.cards{
+.cards {
   display: flex;
   justify-content: space-evenly;
-padding: 50px;
+  padding: 50px;
 }
 
-.card{
+.card {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
+  border: 0.5px solid black;
+  border-radius: 15px;
   margin: 70px;
-  padding: 50px;
+  padding: 0px 5px 15px 5px;
+  -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
 }
-.card-img{
+.card-img {
   width: 650px;
   height: 450px;
 }
-.card-container h4{
+.card-container h4 {
+  font-family: "Jost", sans-serif;
   padding-top: 20px;
   font-size: 20px;
   text-align: center;
-
 }
-.card-container p{
+.card-container p {
+  font-family: "Jost", sans-serif;
   text-align: center;
   word-wrap: normal;
   padding: 0px 70px;
 }
 
-
 .buttonClass {
-  font-size:15px;
-  font-family:Arial;
-  width:140px;
-  height:50px;
-  border-width:1px;
-  color:#ffffff;
-  border-color:#124d77;
-  border-top-left-radius:3px;
-  border-top-right-radius:3px;
-  border-bottom-left-radius:3px;
-  border-bottom-right-radius:3px;
-  box-shadow:inset 0px 1px 0px 0px rgba(152, 181, 212, 1);
-  text-shadow:inset 0px 1px 0px #154682;
-  background:linear-gradient(#007dc1, #0061a7);
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  width: 140px;
+  height: 50px;
+  border-width: 1px;
+  color: #ffffff;
+  border-color: #124d77;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: inset 0px 1px 0px 0px rgba(152, 181, 212, 1);
+  text-shadow: inset 0px 1px 0px #154682;
+  background: linear-gradient(#007dc1, #0061a7);
 }
 
 .buttonClass:hover {
+  color: black;
   background: linear-gradient(#0061a7, #007dc1);
 }
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* SERVICES PAGE end */
 
-/* Contact us - end*/
+/* Container-start */
+
+.disclaimer-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 120vh;
+  margin: auto;
+  background-color: #000033;
+}
+
+.disclaimer-content {
+  font-family: "Jost", sans-serif;
+  font-size: 34px;
+  text-decoration: underline;
+  color: white;
+}
+
+.disclaimer-para{
+  text-align: center;
+  color: white;
+  font-family: "Jost", sans-serif;
+  margin: 30px;
+
+}
+/* COntainer-end */
+
 .container-img {
   display: flex;
   justify-content: center;
