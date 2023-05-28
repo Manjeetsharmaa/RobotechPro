@@ -45,6 +45,9 @@
 
         </nav>
     </header>
+
+    <img src="/img/ISO/1.png" alt="ISO" class="show-hide">
+    <button onclick="showIso()">ISO Certified</button>
     <div class="container">
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -120,14 +123,11 @@
 
         <form method="POST" class="contact-form">
             <div class="contact-details">
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="yourname" placeholder="Enter your Name" required>
+                <input type="text" name="name" id="yourname" placeholder="Name" required>
                 <br />
-                <label for="email">Email:</label>
-                <input type="text" name="email" id="Email" placeholder="Enter your email"
+                <input type="text" name="email" id="Email" placeholder="Email"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-                <label for="msg">Message:</label>
-                <input name="message" type="text" placeholder="Your message to us" required></input>
+                <input name="message" type="number" placeholder="Phone Number" required></input>
             </div>
             <div class="message">
 
