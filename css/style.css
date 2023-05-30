@@ -13,7 +13,6 @@ html {
 /* Navigation */
 header {
   background-color: white;
-  padding-bottom: 50px;
 }
 
 ul {
@@ -79,16 +78,76 @@ ul {
 }
 
 
-.show-hide{
-  display: none;
+/* show hide button */
+
+.iso-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 40px 0px;
 }
 
-.show-hide:active{
-  display: active;
-  background: transparent black;
-  
+#iso-btn {
+  width: 170px;
+  height: 40px;
+  font-family: "Jost", sans-serif;
+  margin: 0px 20px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #3a86ff;
+  box-shadow: 0 5px #4433ff;
 }
 
+#iso-btn:hover {
+  box-shadow: 0 3px #4433ff;
+  top: 1px;
+  transition: 0.1s;
+}
+
+#iso-btn:active {
+  box-shadow: 0 0 #4433ff;
+  top: 5px;
+}
+
+.show-hide {
+  display: contents;
+  position: relative;
+  top: -100;
+  background-color: transparent black;
+  width: 100%;
+  mix-blend-mode: normal;
+}
+
+.show-hide:active {
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* show hide button end */
 
 
 
@@ -117,7 +176,7 @@ ul {
 .container {
 
   width: 100%;
-  height: 105vh;
+  height: 101vh;
   background: #222;
   display: flex;
   align-items: center;
@@ -125,7 +184,7 @@ ul {
 }
 
 .swiper {
-  width: 100%;
+  width: 90%;
   height: fit-content;
 }
 
@@ -215,11 +274,10 @@ ul {
 
 /* section-3 */
 #section-3 {
-  background-image: url(/img/coverimg-4.jpg);
-  min-height: 90vh;
+  background: #fff url(/img/cover-img/coverimg-4.jpg) center center/cover no-repeat;
+  min-height: 100vh;
   background-size: cover;
-  -webkit-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
+  height: contain;
   box-shadow: 14px 21px 27px -15px rgba(0, 0, 0, 0.3);
 }
 
@@ -337,7 +395,7 @@ ul {
   align-items: center;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px  0px 20px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 20px 7px rgba(0, 0, 0, 0.75);
 }
 
@@ -390,6 +448,10 @@ input::placeholder {
 
 /* SECTION-5  end */
 
+/* section-6 start */
+
+
+/* section-6 ends */
 /* ABOUTUS PAGE */
 .content-about {
   display: flex;
@@ -526,16 +588,19 @@ input::placeholder {
   -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
 }
+
 .card-img {
   width: 650px;
   height: 450px;
 }
+
 .card-container h4 {
   font-family: "Jost", sans-serif;
   padding-top: 20px;
   font-size: 20px;
   text-align: center;
 }
+
 .card-container p {
   font-family: "Jost", sans-serif;
   text-align: center;
@@ -574,31 +639,40 @@ input::placeholder {
 
 /* Container-start */
 
-.disclaimer-start {
+.disclaimer-section-element {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+}
+
+
+.disclaimer-start {
+  margin: 50px;
   width: 60%;
-  height: 120vh;
-  margin: auto;
-  background-color: #000033 transparent;
+  background-color: #000033;
+  padding: 50px;
 }
 
 .disclaimer-content {
   font-family: "Jost", sans-serif;
   font-size: 34px;
+  font-weight: 700;
+  line-height: 48px;
   text-decoration: underline;
   color: white;
 }
 
-.disclaimer-para{
-  text-align: center;
+.disclaimer-para {
+  font-style: normal;
+  line-height: 29px;
+  font-weight: 400;
   color: white;
   font-family: "Jost", sans-serif;
-  margin: 30px;
+font-size: 20px;
 
 }
+
 /* COntainer-end */
 
 
@@ -608,7 +682,7 @@ input::placeholder {
   justify-content: center;
 }
 
-.support{
+.support {
   width: 600px;
 }
 
@@ -617,7 +691,7 @@ input::placeholder {
 /* Footer */
 footer {
   min-height: 390px;
-  background-color: #000033;
+  background-color: #232323;
 }
 
 .links {
@@ -637,7 +711,7 @@ footer {
 
 .footer-item {
   font-family: "Jost", sans-serif;
-  font-size: 17.2px;
+  font-size: 20px;
   text-decoration: none;
   color: rgb(101, 146, 230);
   transition: 0.3s ease;
