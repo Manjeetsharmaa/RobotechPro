@@ -270,27 +270,27 @@ ul {
   display: flex;
   flex-direction: row;
   padding: 0px 60px;
+
 }
 
-.phone {
+.phone, .email {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
   background-color: white;
   width: 50%;
   min-height: 250px;
   margin: 50px;
+  padding: 50px;
   border-radius: 10px;
   font-weight: 700 bold;
   font-size: 32px;
   font-family: "Jost", sans-serif;
 }
 
-.phone-no {
+.phone-no,.email-add {
   color: #6592e7;
   font-size: 19.2px;
-  text-align: center;
 }
 
 .phone-no:hover {
@@ -298,34 +298,10 @@ ul {
   text-decoration: underline;
 }
 
-.email {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  background-color: white;
-  background-color: white;
-  width: 50%;
-  min-height: 250px;
-  margin: 50px;
-  border-radius: 10px;
-  font-weight: 700 bold;
-  font-size: 32px;
-  font-family: "Jost", sans-serif;
-}
-
-.email-add {
-  color: #6592e7;
-
-  font-size: 19.2px;
-  text-align: center;
-}
-
-.email-add:hover {
+.email-add:hover{
   cursor: pointer;
   text-decoration: underline;
 }
-
 /* section-4 end */
 /* section-5 */
 
@@ -408,6 +384,14 @@ input::placeholder {
 /* SECTION-5  end */
 
 /* section-6 start */
+
+
+
+/* contact page */
+
+
+
+
 
 /* section-6 ends */
 /* contact-page  */
@@ -571,7 +555,7 @@ input::placeholder {
 .cards {
   display: flex;
   justify-content: space-evenly;
-  padding: 50px;
+  flex-direction: row;
 }
 
 .card {
@@ -579,35 +563,41 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 0.5px solid black;
-  border-radius: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
   margin: 70px;
-  padding: 0px 5px 15px 5px;
+  padding: 0px 0px 20px 0px;
   -webkit-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 32px 0px rgba(0, 0, 0, 0.75);
 }
 
 .card-img {
-  width: 650px;
+  width: 800px;
   height: 450px;
 }
 
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 70px;
+}
 .card-container h4 {
   font-family: "Jost", sans-serif;
-  padding-top: 20px;
-  font-size: 20px;
   text-align: center;
+  font-size: 30px;
 }
 
 .card-container p {
   font-family: "Jost", sans-serif;
   text-align: center;
-  word-wrap: normal;
-  padding: 0px 70px;
+  font-size: 20px;
 }
 
 .buttonClass {
+  
   font-family: "Jost", sans-serif;
   text-decoration: none;
   display: flex;
