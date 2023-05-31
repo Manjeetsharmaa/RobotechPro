@@ -426,9 +426,9 @@ input::placeholder {
   flex-direction: column;
   padding: 50px;
   margin: 50px;
-  width: 40%;
+  width: 50%;
   border: 1px solid black;
-  min-height: 150px;
+  min-height: 110px;
 }
 
 .cont-add {
