@@ -232,8 +232,7 @@ ul {
 
 /* section-3 */
 #section-3 {
-  background: #fff url(/img/cover-img/coverimg-4.jpg) center center/cover
-    no-repeat;
+  background: #fff url(/img/cover-img/coverimg-4.jpg) center center/cover no-repeat;
   min-height: 100vh;
   background-size: cover;
   height: contain;
@@ -273,7 +272,8 @@ ul {
 
 }
 
-.phone, .email {
+.phone,
+.email {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -288,7 +288,8 @@ ul {
   font-family: "Jost", sans-serif;
 }
 
-.phone-no,.email-add {
+.phone-no,
+.email-add {
   color: #6592e7;
   font-size: 19.2px;
 }
@@ -298,10 +299,11 @@ ul {
   text-decoration: underline;
 }
 
-.email-add:hover{
+.email-add:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
 /* section-4 end */
 /* section-5 */
 
@@ -399,6 +401,7 @@ input::placeholder {
 .element-conc {
   color: #000;
 }
+
 .cont-element {
   display: flex;
   flex-direction: row;
@@ -426,7 +429,7 @@ input::placeholder {
   font-size: 19px;
 }
 
-.cont-addre:hover{
+.cont-addre:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -577,13 +580,14 @@ input::placeholder {
   height: 450px;
 }
 
-.card-container{
+.card-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 30px 70px;
 }
+
 .card-container h4 {
   font-family: "Jost", sans-serif;
   text-align: center;
@@ -597,7 +601,7 @@ input::placeholder {
 }
 
 .buttonClass {
-  
+
   font-family: "Jost", sans-serif;
   text-decoration: none;
   display: flex;
@@ -626,7 +630,181 @@ input::placeholder {
 
 /* SERVICES PAGE end */
 
-/* Container-start */
+/* PRICICNG START */
+.pro-pri {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.pric-ing {
+  color: #000000;
+  font-family: "Jost", sans-serif;
+  font-size: 73.6px;
+  line-height: 80.9667px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: rgb(255, 255, 255);
+  text-align: center;
+  text-indent: 0px;
+  padding: 30px 0px;
+}
+
+.serv-ice-pri {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: rgb(255, 255, 255);
+  text-align: center;
+  text-indent: 0px;
+
+  padding-bottom: 30px;
+}
+
+.plans-element {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 50px 0px;
+  width: 30%;
+  padding: 50px;
+}
+
+.dates-ele {
+  font-family: "Jost", sans-serif;
+  font-size: 25.6px;
+
+  line-height: 38.4px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 30px;
+  padding: 0px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: rgb(35, 35, 35);
+  text-align: center;
+  text-indent: 0px;
+}
+
+.prices{
+  font-family: "Jost", sans-serif;
+  font-size: 73.6px;
+  line-height: 80.9667px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-align: center;
+  text-indent: 0px;
+  color: #47B5ED
+}
+
+.gst{
+  font-family: "Jost", sans-serif;
+  color: #232323;
+  font-size: 16px;
+
+  
+  line-height: 24px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+
+  
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: rgb(35, 35, 35);
+  text-align: center;
+  text-indent: 0px;
+
+
+}
+
+.element-content-plans{
+
+  padding: 9px 0px;
+  font-family: "Jost", sans-serif;
+  font-size: 19.2px;
+  
+  line-height: 19.2px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: rgb(33, 37, 41);
+  text-align: center;
+  text-indent: 0px;
+
+
+}
+
+.payment-link{
+  margin: 30px 0px;
+  text-decoration: none;
+  box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: "Jost", sans-serif;
+	font-size:17px;
+	padding:12px 39px;
+	text-decoration:none;
+}
+
+.payment-link:hover{
+  background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+  color: #000;
+}
+/* PRICICNG END */
+
+/* disclaimer-start */
 
 .disclaimer-section-element {
   display: flex;
@@ -660,7 +838,7 @@ input::placeholder {
   font-size: 22px;
 }
 
-/* Container-end */
+/* disclaimer-end */
 
 /* 24X7- support */
 .container-img {
@@ -715,6 +893,30 @@ footer {
   font-size: 19.2px;
   color: rgb(255, 255, 255);
 }
+
+.span-address{
+  color: #4C4C4C;
+  font-family: "Jost", sans-serif;
+  font-size: 17.6px;
+
+  line-height: 35px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  margin: 0px 0px ;
+  padding: 0px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: rgb(187, 187, 187);
+  text-align: left;
+  text-indent: 0px;
+
+
+}
+
+
 
 .right {
   font-family: "Jost", sans-serif;
