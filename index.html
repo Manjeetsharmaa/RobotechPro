@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <title>RobotechPro</title>
 </head>
 
@@ -131,19 +132,19 @@
 
     <section id="section-5">
 
-        <form method="POST" class="contact-form">
+        <form class="contact-form" id="myForm">
             <div class="contact-details">
-                <input type="text" name="name" id="yourname" placeholder="Name" required>
+                <input type="text" name="fname" placeholder="Name" required>
                 <br />
-                <input type="text" name="email" id="Email" placeholder="Email"
+                <input type="text" name="email" placeholder="Email"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-                <input name="message" type="number" placeholder="Phone Number" required></input>
+                <input name="number" type="number" placeholder="Phone Number" required></input>
             </div>
             <div class="message">
 
                 <br />
             </div>
-            <button type="submit" class="submit">Submit</button>
+            <button type="submit" class="submit" onclick="SubForm()" >Submit</button>
 
         </form>
     </section>
@@ -294,6 +295,11 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
     <script src="/script/script.js"></script>
 
 </body>

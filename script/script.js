@@ -10,8 +10,34 @@ document.getElementById("iso-btn").onclick = function () {
 }
 
 
+// FUNCTION -form
+function SubForm (){
+  $.ajax({
+    url:"https://api.apispreadsheets.com/data/xAeF6bwAqpYumldV/",
+    type:"post",
+    data:$("#myForm").serializeArray(),
+    success: function(){
+      alert("Form Data Submitted :)")
+    },
+    error: function(){
+      alert("There was an error :(")
+    }
+  });
+}
 
 
+fetch("https://api.apispreadsheets.com/data/xAeF6bwAqpYumldV/").then(res=>{
+	if (res.status === 200){
+		// SUCCESS
+		res.json().then(data=>{
+			const yourData = data
+		}).catch(err => console.log(err))
+	}
+	else{
+		// ERROR
+	}
+})
+// function form end
 
 
 
