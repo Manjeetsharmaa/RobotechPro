@@ -1,171 +1,173 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap");
 
 /* API BRIDGE - START */
 .api-bridge {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 
 .api-element {
-
-    width: 60%;
-    background-color: #4479d9;
-    padding: 40px;
+  width: 60%;
+  background-color: #4479d9;
+  padding: 40px;
 }
 
 .api-h2 {
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
-    color: rgb(2, 2, 2);
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: rgb(2, 2, 2);
 }
 
 .api-para {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 39px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 39px;
 
-    color: white;
-    font-style: normal;
-
+  color: white;
+  font-style: normal;
 }
 
 /* API BRIDGE - END */
 
 /* STATEGY DEVELOPMENT - START */
 .content-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .stra-element {
-    width: 60%;
-    background-color: #000033;
-    padding: 50px;
+  width: 60%;
+  background-color: #000033;
+  padding: 50px;
 }
 
 .strategy-text {
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 48px;
-    color: rgb(255, 255, 255);
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
 }
 
 .strategy-para {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 29px;
-    color: white;
-    font-weight: 400;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: white;
+  font-weight: 400;
 }
 
 /* STATEGY DEVELOPMENT - END */
 
 /* AUTO-BUY START */
 .auto-buy-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 .auto-buy-section-element {
-    width: 60%;
-    background-color: #000033;
-    padding: 50px;
+  width: 60%;
+  background-color: #000033;
+  padding: 50px;
 }
-.auto-buy-text{
-    font-family: 'Jost', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    line-height: 48px;
-    color: rgb(255, 255, 255);
+.auto-buy-text {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
 }
 
-.auto-buy-para{
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 29px;
-    color: white;
-    font-weight: 400;
-
+.auto-buy-para {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: white;
+  font-weight: 400;
 }
 
 /* AUTO-BUY END */
 
-
-
 /* Privacy policy */
-
+.pri-element {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
 .privacy {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #000033;
-    width: 60%;
-    margin: auto;
+  padding: 50px;
+  background-color: #000033;
+  width: 60%;
+  margin: auto;
 }
 
 .privacy-policy {
-    margin: 30px;
-    color: white;
-    font-size: 32px;
-    font-family: 'Jost', sans-serif;
+  margin: 30px;
+  color: white;
+  font-size: 32px;
+  font-family: "Jost", sans-serif;
 }
 
 .privacy-para {
-    margin: 0px 30px;
-    color: white;
-    font-size: 19px;
-    font-weight: 400;
-    font-family: 'Jost', sans-serif;
-    padding-bottom: 40px;
-    letter-spacing: normal;
+  margin: 0px 30px;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  padding-bottom: 40px;
+  letter-spacing: normal;
 }
 
 /* privacy policy page end */
 
 /* Terms and condition */
+
+.term-element {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+}
 .terms {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: #000033;
-    width: 60%;
-    margin: auto;
+  padding: 50px;
+  background-color: #000033;
+  width: 60%;
+  margin: auto;
 }
 
 .term-text {
-    margin: 30px;
-    color: white;
-    font-size: 32px;
-    font-family: 'Jost', sans-serif;
+  margin: 30px;
+  color: white;
+  font-size: 32px;
+  font-family: "Jost", sans-serif;
 }
 
 .term-para {
-    margin: 0px 30px;
-    color: white;
-    font-size: 19px;
-    font-weight: 400;
-    font-family: 'Jost', sans-serif;
-    padding-bottom: 40px;
-    letter-spacing: normal;
+  margin: 0px 30px;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+  padding-bottom: 40px;
+  letter-spacing: normal;
 }
 
 /* Terms and condition end */
