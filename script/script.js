@@ -1,7 +1,6 @@
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
@@ -12,25 +11,6 @@ window.addEventListener("scroll", () =>{
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // FUNCTION -form
@@ -61,20 +41,6 @@ fetch("https://api.apispreadsheets.com/data/xAeF6bwAqpYumldV/").then(res=>{
 	}
 })
 // function form end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const swiper = new Swiper('.swiper', {
 
