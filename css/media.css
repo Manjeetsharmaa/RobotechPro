@@ -1,0 +1,161 @@
+@media only screen and (max-width: 486px) {
+
+    /* hamburger-start */
+    #hamburger {
+        display: block;
+    }
+
+    .logo {
+        padding: 0px;
+        width: 110px;
+
+    }
+
+    #hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+ 
+    .nav-menu {
+        position: fixed;
+        right:  -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        z-index: 100;
+        transition: 0.3 ease;
+    }
+
+    .nav-item {
+        margin: 20px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+
+
+    /* slider */
+    .container {
+        height: 30vh;
+        background-color: white;
+    }
+
+    .swiper {
+        width: 100%;
+
+    }
+
+    /* slider */
+
+
+    /* section-1 */
+    #section-1 {
+        padding-top: 50px;
+    }
+
+    .about-text {
+        text-align: center;
+
+    }
+
+    .about-para {
+        text-align: center;
+    }
+
+    /* section 1 end */
+
+
+    /* section-2 */
+
+    #section-2 {
+        flex-direction: column;
+    }
+
+    .sucess-img{
+        height: 300px;
+        width: 350px;
+    }
+    /* section-2  end*/
+    /* section-3 */
+    #section-3 {
+        min-height: 30vh;
+        width: 100%;
+    }
+
+    /* section-3 end*/
+
+    /* section-4 end*/
+    #section-4 {
+        padding-bottom: 50px;
+    }
+
+    .contact-element {
+        padding: 5px;
+    }
+
+    .phone,
+    .email {
+        min-height: 50px;
+        margin: 0px 10px;
+        padding: 0px;
+        font-size: 22px;
+
+    }
+
+    /* section-5 */
+    .contact-form {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    /* section-5 end*/
+
+    /* SERVICES PAGE START */
+    .cards {
+        flex-direction: column;
+    }
+
+    .card-img {
+        width: 343px;
+    }
+
+    /* SERVICES PAGE end */
+
+    /* 24X7- support */
+    .support {
+        width: 150px;
+  height: 180px;
+
+    }
+
+    /* 24X7 support end */
+
+    /* footer */
+    .footer-item{
+        font-size: 15px;
+    }
+
+
+
+
+    .right{
+        font-size: 12px;
+    }
+}

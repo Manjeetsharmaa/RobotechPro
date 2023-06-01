@@ -1,13 +1,36 @@
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
 
-document.getElementById("iso-btn").onclick = function () {
-  let showImage = document.querySelector(".show-hide");
-  if (showImage.classList.toggle('active')) {
-    console.log(`it's working`)
-  } else {
-    showImage.classList.remove('remove');
-  }
-}
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+
+})
+
+window.addEventListener("scroll", () =>{
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // FUNCTION -form
