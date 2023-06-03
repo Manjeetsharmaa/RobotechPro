@@ -1,4 +1,4 @@
-@media only screen and (max-width: 486px) {
+@media only screen and (max-width: 600px) {
 
     /* hamburger-start */
     #hamburger {
@@ -22,11 +22,11 @@
     #hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
- 
+
     .nav-menu {
         position: fixed;
-        right:  -100%;
-        top: 70px;
+        right: -100%;
+        top: 100px;
         gap: 0;
         flex-direction: column;
         background-color: rgb(255, 255, 255);
@@ -34,7 +34,7 @@
         height: 100%;
         text-align: center;
         z-index: 100;
-        transition: 0.3 ease;
+        transition: 0.6s ease;
     }
 
     .nav-item {
@@ -49,13 +49,13 @@
 
     /* slider */
     .container {
+        padding-top: 90px;
         height: 30vh;
         background-color: white;
     }
 
     .swiper {
         width: 100%;
-
     }
 
     /* slider */
@@ -63,7 +63,7 @@
 
     /* section-1 */
     #section-1 {
-        padding-top: 50px;
+        padding-top: 110px;
     }
 
     .about-text {
@@ -72,6 +72,7 @@
     }
 
     .about-para {
+
         text-align: center;
     }
 
@@ -84,10 +85,11 @@
         flex-direction: column;
     }
 
-    .sucess-img{
+    .sucess-img {
         height: 300px;
         width: 350px;
     }
+
     /* section-2  end*/
     /* section-3 */
     #section-3 {
@@ -106,11 +108,16 @@
         padding: 5px;
     }
 
+    .phone-no,
+    .email-add {
+        margin: 0px;
+    }
+
     .phone,
     .email {
-        min-height: 50px;
+        min-height: 30px;
         margin: 0px 10px;
-        padding: 0px;
+        padding: 20px;
         font-size: 22px;
 
     }
@@ -133,29 +140,99 @@
     }
 
     .card-img {
-        width: 343px;
+        height: 250px;
+        width: 445px;
     }
 
     /* SERVICES PAGE end */
 
     /* 24X7- support */
     .support {
-        width: 150px;
-  height: 180px;
+        width: 180px;
+        height: 180px;
 
     }
 
     /* 24X7 support end */
 
     /* footer */
-    .footer-item{
+    .footer-item {
         font-size: 15px;
     }
 
+    .span-text {
+        font-size: 16.2px;
+    }
 
-
-
-    .right{
+    .footer-item {
         font-size: 12px;
+    }
+
+    .span-address {
+        line-height: 20px;
+        font-size: 11.6px;
+    }
+
+    .right {
+        font-size: 12px;
+    }
+
+    /* ABOUTUS PAGE */
+    .about-parent {
+        padding: 0px 50px;
+    }
+    
+
+    .content-section {
+        width: 50%;
+        padding: 0px;
+        justify-content: space-between;
+    }
+
+    .img-part{
+        width: 300px;
+    }
+    
+    .content-about-story{
+        height: 200px;
+    }
+
+    .success-story{
+        font-size: 20px;
+    }
+
+    .success-story-paragraph{
+        padding: 0px;
+        margin: 20px; 
+        font-size: 14.2px;
+        line-height: 25px;
+    }
+
+    /* PRICING-START */
+    .pric-ing{
+        font-size: 35px;
+    }
+
+    .plans-element{
+        margin: 0px;
+        justify-content: space-between;
+    }
+    .plans {
+        justify-content: space-around;
+        width: 250px;
+        margin: 40px;
+        padding: 20px;
+    }
+    .prices{
+        font-size: 30px;
+    }
+
+    .dates-ele {
+        font-size: 12px;
+    }
+    .element-content-plans{
+        font-size: 12px;
+        padding: 0px;
+        line-height: 20px;
     }
 }

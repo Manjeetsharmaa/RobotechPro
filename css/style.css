@@ -496,7 +496,7 @@ input::placeholder {
   flex-direction: row;
   align-items: center;
 
-  padding: 0px 300px;
+  padding: 50px 300px;
 }
 
 .parentcontent {
@@ -523,13 +523,10 @@ input::placeholder {
 }
 
 .img-part {
-  width: 50%;
+  width: 400px;
+  height: 350px;
   background-size: contain;
   padding-top: 50px;
-}
-
-.img-part img {
-  height: 350px;
 }
 
 .content-about-story {
@@ -647,7 +644,7 @@ input::placeholder {
 
 /* SERVICES PAGE end */
 
-/* PRICICNG START */
+/* PRICICING START */
 .pro-pri {
   display: flex;
   justify-content: center;
@@ -707,9 +704,10 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  margin: 50px 0px;
-  width: 30%;
+  margin: 50px;
+  width: 33%;
   padding: 50px;
+
 }
 
 .dates-ele {
@@ -880,6 +878,13 @@ footer {
   min-height: 360px;
 }
 
+.span-text {
+  font-family: "Jost", sans-serif;
+  padding-top: 25px;
+  text-align: center;
+  font-size: 19.2px;
+  color: rgb(255, 255, 255);
+}
 .links-items {
   display: flex;
   justify-content: flex-start;
@@ -903,13 +908,7 @@ footer {
   color: white;
 }
 
-.span-text {
-  font-family: "Jost", sans-serif;
-  padding-top: 25px;
-  text-align: center;
-  font-size: 19.2px;
-  color: rgb(255, 255, 255);
-}
+
 
 .span-address{
   color: #4C4C4C;
