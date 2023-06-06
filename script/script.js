@@ -4,7 +4,6 @@ const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
-
 })
 
 window.addEventListener("scroll", () =>{
@@ -15,7 +14,7 @@ window.addEventListener("scroll", () =>{
 
 // FUNCTION -form
 function SubForm (){
-  $.ajax({
+  $.ajax({  
     url:"https://api.apispreadsheets.com/data/xAeF6bwAqpYumldV/",
     type:"post",
     data:$("#myForm").serializeArray(),
